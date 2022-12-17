@@ -1,0 +1,15 @@
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\bin\Debug\net6.0\Aula1_Desafio_CriandoClasses.exe
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\bin\Debug\net6.0\Aula1_Desafio_CriandoClasses.deps.json
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\bin\Debug\net6.0\Aula1_Desafio_CriandoClasses.runtimeconfig.json
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\bin\Debug\net6.0\Aula1_Desafio_CriandoClasses.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\bin\Debug\net6.0\Aula1_Desafio_CriandoClasses.pdb
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.csproj.AssemblyReference.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.AssemblyInfoInputs.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.AssemblyInfo.cs
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.csproj.CoreCompileInputs.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\refint\Aula1_Desafio_CriandoClasses.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.pdb
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\Aula1_Desafio_CriandoClasses.genruntimeconfig.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\Aula1_Desafio_CriandoClasses\Aula1_Desafio_CriandoClasses\obj\Debug\net6.0\ref\Aula1_Desafio_CriandoClasses.dll
