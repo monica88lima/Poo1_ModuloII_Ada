@@ -1,0 +1,15 @@
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.csproj.AssemblyReference.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.AssemblyInfoInputs.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.AssemblyInfo.cs
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.csproj.CoreCompileInputs.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\bin\Debug\net6.0\exercicio_03_classeTv.exe
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\bin\Debug\net6.0\exercicio_03_classeTv.deps.json
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\bin\Debug\net6.0\exercicio_03_classeTv.runtimeconfig.json
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\bin\Debug\net6.0\exercicio_03_classeTv.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\bin\Debug\net6.0\exercicio_03_classeTv.pdb
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\refint\exercicio_03_classeTv.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.pdb
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\exercicio_03_classeTv.genruntimeconfig.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\exercicio_02_classeCaneta\exercicio_03_classeTv\obj\Debug\net6.0\ref\exercicio_03_classeTv.dll

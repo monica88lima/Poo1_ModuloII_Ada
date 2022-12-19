@@ -1,0 +1,11 @@
+1.Traga um caso de uso para modificadores de acesso, public, protected, private;
+
+1.Construa uma classe caneta. 
+    à partir dessa classe crie 2 objetos do tipo Caneta.
+    
+2. Construa uma classe Pessoa com as propriedades nomeCompleto, email e primeiroNome.
+   - Crie os getters e o setters para as propriedades.
+
+3. Construa uma classe TV com as propriedades canal: volume e ligada e métodos: liga, desliga, mudaDeCanal e aumentaVolume, diminuiVolume.
+   
+4. Refaça o exercício da TV utilizando o construtor de classe.
