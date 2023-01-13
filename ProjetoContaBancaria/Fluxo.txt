@@ -1,0 +1,37 @@
+
+1° Alternativa de (Abrir Conta) ou (Consultar Conta existente)
+
+Para Abrir Conta
+1° Perguntar qual tipo de Conta deseja abrir:
+ * poupança
+ *salario
+ *investimento
+
+2°Em todas as contas soliictar dados basicos do cliente
+3° fazer as exigencias conforme particularidade da conta
+
+4º Apos concluir a abertura da Conta:
+Apresentar numero da agencia e numero da conta
+
+5° Apresentar a opção de acessar a conta
+
+*********************************************
+Para Acesso a Conta
+
+1° Pedir numero da Agencia
+2° Pedir numero da Conta
+3° Pedir numero senha ( criar uma fixa)
+
+***********
+ao acesssar apresentar Saldo e as opções para serem selecionadas
+*Transferencias Para Poupança
+*Depositos
+*Saque
+*Extrato
+*Comprar Ações
+
+ *Na conta poupança sempre inicializar ela com o saldo minimo* //Pensando no criterio do saldo minimo para ativação.
+* Comprar Ações, so mostrar na conta investimento.
+************
+
+

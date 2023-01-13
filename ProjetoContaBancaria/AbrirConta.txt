@@ -1,0 +1,34 @@
+
+PARA ABRIR CONTA
+___________________
+Classe Cliente
+
+Nome Completo
+CPF
+Data de Nascimento
+RG
+Endereço (Nome da Rua, número, bairro, cidade, estado, Cep)
+***********************************************************************
+//Herda os dados do cliente
+Classe Conta : Cliente
+
+Tipo Conta
+Dados Cliente
+Data  Abertura Conta
+Numero Agencia
+Numero Conta
+Saldo
+************************************************************************
+Conta Poupança
+// Herda  as propriedades de Conta
+Exigir uma transferência (estabelecer um valor minimo de transferencia para ativar a conta)
+
+Conta Salario
+// Herda  as propriedades de Conta
+Incluir informações do holerite para concluir
+
+Conta Investimento
+// Herda as propriedades de Conta
+Incluir perguntas do formulario, fazer a analise do perfil do investidor.
+
+***********************************************************************

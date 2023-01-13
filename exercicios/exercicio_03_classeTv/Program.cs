@@ -21,6 +21,11 @@ namespace exercicio_03_classeTv
                 Console.WriteLine(tv.volume);
                 tv.MudaCanal(2);
                 Console.WriteLine(tv.canal);
+
+                TV tv2 = new TV("Ligada", 102, 30);
+                Console.WriteLine(tv2.ligada);
+                Console.WriteLine(tv2.canal);
+                Console.WriteLine(tv2.volume);
             }
             catch (Exception e)
             {

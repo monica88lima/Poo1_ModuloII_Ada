@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj": {}
+    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj": {
+    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj",
+        "projectUniqueName": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj",
         "projectName": "exercicio_03_classePessoa_GettersESetters",
-        "projectPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj",
+        "projectPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_03_classePessoa_GettersESetters\\exercicio_03_classePessoa_GettersESetters.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_03_classePessoa_GettersESetters\\obj\\",
+        "outputPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_03_classePessoa_GettersESetters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,114 @@
+Classe Pai Extrato bancario
+Propriedades:
+DataOperacao: DateTime
+TipoOperacao : enum
+ValorOperação: double
+
+********************************
+ListaExtrato : ExtratoBancario
+Propriedades:
+lstExtrato: List<>
+Métodos
+void IncluirTransacaoNoExtrato(TipoOperacao tipo, double valor)
+void IncluirTransacaoNoExtrato(TipoOperacao tipo, double valor, int diaQueAbriuAConta)
+void MostrarExtrato()
+
+*******************************
+Conta : ListaExtrato
+Propriedades:
+NumeroConta: int
+NumeroAgencia : int
+NomeCompleto : string
+CPF : long
+Saldo: double
+TipoAcaoDaConta: string ou " "
+DataAberturaConta: DateTime
+Métodos:
+virtual void Depositar(double valor)
+virtual void Sacar(double valor)
+virtual void Saudacao(string tipo_conta = "")
+virtual void TaxaBancaria()
+
+
+***********************************
+ContaPoupanca : Conta
+
+métodos
+public virtual void TaxaBancaria()
+***********************************
+ContaSalario : Conta
+
+propriedades:
+NomeEmpregador : string
+Cnpj: long
+Cargo: string
+Salario: double
+Métodos:
+void SolicitarDadosHolerite(string empregador = "")
+override void Depositar(double valor)
+override void TaxaBancaria()
+
+***********************************
+ContaInvestimento : Conta
+
+propriedades:
+Perfil : string
+painel_Investimento: static Painel_Investimento() ou Null
+
+Métodos:
+MontarPerfil(string nomePerfil = "")
+override void TaxaBancaria()
+AnalisadorPerfilInvestidor(int pontuacao)
+ComprarAcao(double valorEmConta)
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Classe Pai -Patrimonio_Acumulado --- Classe e instanciada apenas se a Conta Investimento for tbm
+propriedades:
+DateTime :DataCompraAcao
+string :NomeAcao
+double :Patrimonio_Total
+List<Patrimonio_Acumulado>: LstPainel
+
+*****************************************************************
+Painel_Investimento : Patrimonio_Acumulado
+
+metodos:
+IncluirTransacaoNoPainel(string papel, double valor)
+void MostrarInvestimentos()
+
+******************************************************************
+class MenuDeInteracoes ---- Todas as Contas tem acesso a esta classe
+Propriedades:
+ItensMenu :List<string>
+
+métodos:
+static void MostrarMenu(string novoItem = "")
+static string EscolherMenu()
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CLASSES SÓ COM METODOS 
+
+class AbrirConta
+static void AbrirContas(int numeroQueEscolheQualACategoriaDaConta)
+***********************************************************************************
+class AcessarContaExistente
+ static void AcessandoContaExistente()
+**********************************************************************************
+class ConfiguracaoLayout
+static void LayoutDoConsole()
+********************************************************************************
+class ValidadorEConversorNumerico
+static int ConverterParaNumero()
+static long ConverterParaLong()
+static long ConverterParaLongCnpj()
+static double ConverterParaDouble()
+static int ValidarEntradaFormularioInvestidor()
+static void ValidarTamanhoDoCpf(string cpf)
+static void ValidarTamanhoDoCnpj(string cpf)
+
+
+
+

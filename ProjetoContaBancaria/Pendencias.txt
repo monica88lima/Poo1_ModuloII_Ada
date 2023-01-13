@@ -1,0 +1,8 @@
+Conta bancaria
+
+Função Abrir Conta
+
+//Criar um metodo que valida apenas a opção 1 e 2, e precisa ficar refazendo a pergunta.
+// valid CPF e CNPj com a quantidade de digitos padrão
+
+função consultar conta existente

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace exercicio_02_classeCaneta
 {
-    internal class Caneta
+    public class Caneta
     {
         public string Marca { get; set; }
         public string Cor { get; set; }

@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace exercicio_03_classeTv
 {
-    internal class TV
+    class TV
     {
         public int canal;
         public int volume;
         public bool ligada;
+        // CONSTRUTOR DA CLASSE
         public TV(string situacaoTv, int posicaoVolume, int posicaoCanal)
         {
             situacaoTv = situacaoTv.ToUpper();
-            bool modoTv = situacaoTv == "LIGADA"|| situacaoTv == "LIGADA" ? true : false;
+            bool modoTv = situacaoTv == "LIGADA";
 
 
             if (!modoTv)
@@ -27,7 +28,20 @@ namespace exercicio_03_classeTv
             {
                 ligada = modoTv;
                 canal = posicaoCanal;
-                volume = posicaoVolume;
+
+                if(posicaoVolume> 100)
+                {
+                    volume = 100;
+                }
+                else if(posicaoVolume < 0)
+                {
+                    volume = 0;
+                }
+                else
+                {
+                    volume = posicaoVolume;
+                }
+                
             }
             
 
@@ -63,6 +77,7 @@ namespace exercicio_03_classeTv
             {
                 volume = 100;
             }
+            else
             volume++;
         }
         //Criar metodo - DiminuiVolume
@@ -73,6 +88,7 @@ namespace exercicio_03_classeTv
             {
                 volume = 0;
             }
+            else
             volume--;
         }
 

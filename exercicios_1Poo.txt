@@ -1,11 +1,236 @@
 1.Traga um caso de uso para modificadores de acesso, public, protected, private;
 
+Sistema Escolar  
+
+Classe Aluno: Propriedade NomeDoAluno - Public
+Classe Aluno: Propriedade RgDoAluno - Private
+Classe Disciplinas: Propriedade NotaDoAluno - Protected
+
 1.Construa uma classe caneta. 
     à partir dessa classe crie 2 objetos do tipo Caneta.
+
+  public class Caneta
+    {
+        public string Marca { get; set; }
+        public string Cor { get; set; }
+        public Tipo tipo { get; set; }
+
+        public enum Tipo
+        {
+            Esferografica,
+            hidrografica,
+        }
+    }
+
+ static void Main(string[] args)
+        {
+            Console.WriteLine("Criando objeto Caneta");
+
+            Caneta objeto1 = new Caneta()
+            {
+                Marca = "Bic",
+                Cor = "Azul",
+                tipo = Caneta.Tipo.Esferografica
+            };
+
+            Caneta objeto2 = new Caneta()
+            {
+                Marca = "Stabilo",
+                Cor = "Rosa",
+                tipo = Caneta.Tipo.hidrografica
+            };
+
+            Console.WriteLine(objeto2.tipo);
+            Console.WriteLine(objeto1.tipo);
+        }
+
     
 2. Construa uma classe Pessoa com as propriedades nomeCompleto, email e primeiroNome.
    - Crie os getters e o setters para as propriedades.
 
+ public class Pessoa
+    {
+
+        
+        public string PrimeiroNome { get; set; }
+
+        private string Sobrenome { get; set; }
+
+        
+        public string SobrenomePublico
+        {
+            get
+            {
+                return Sobrenome;
+            }
+            set
+            {
+                Sobrenome = value;
+
+            }
+        }
+
+
+        private string NomeCompletoPrivado;
+
+
+
+        public string NomeCompleto
+        {
+            get => NomeCompletoPrivado;
+
+        }
+
+        public void fnNomeCompleto(string PrimeiroNome, string SegundoNome)
+        {
+            NomeCompletoPrivado = PrimeiroNome + " " + SegundoNome;
+        }
+
+
+
+        public string Email { get; set; }
+
+
+    }
+
+static void Main(string[] args)
+        {
+            Console.WriteLine("Criando Getters e Setters");
+
+            Pessoa pessoa = new Pessoa()
+            {
+                PrimeiroNome = "Ana",
+                SobrenomePublico = "Souza",
+                Email = "AnaS@Gmail.com",
+            };
+
+            pessoa.fnNomeCompleto(pessoa.PrimeiroNome, pessoa.SobrenomePublico);           
+
+            Console.WriteLine(pessoa.NomeCompleto +" \n"+ pessoa.Email + "\n" + "Primeiro Nome: " + pessoa.PrimeiroNome );
+
+        }
+
 3. Construa uma classe TV com as propriedades canal: volume e ligada e métodos: liga, desliga, mudaDeCanal e aumentaVolume, diminuiVolume.
    
-4. Refaça o exercício da TV utilizando o construtor de classe.
+4. Refaça o exercício da TV  utilizando o construtor de classe.
+
+class TV
+    {
+        public int canal;
+        public int volume;
+        public bool ligada;
+        // CONSTRUTOR DA CLASSE
+        public TV(string situacaoTv, int posicaoVolume, int posicaoCanal)
+        {
+            situacaoTv = situacaoTv.ToUpper();
+            bool modoTv = situacaoTv == "LIGADA";
+
+
+            if (!modoTv)
+            {
+                ligada = modoTv;
+                canal = 0;
+                volume = 0;
+            }
+            else
+            {
+                ligada = modoTv;
+                canal = posicaoCanal;
+
+                if(posicaoVolume> 100)
+                {
+                    volume = 100;
+                }
+                else if(posicaoVolume < 0)
+                {
+                    volume = 0;
+                }
+                else
+                {
+                    volume = posicaoVolume;
+                }
+                
+            }
+            
+
+        }
+        public void ValidaStatusTV()
+        {
+            if (!ligada)
+                throw new Exception("Televisão está desligada, por favor, ligue-a!");
+        }
+
+        //Criar metodo - Liga/DesligaTV 
+        public void Power(string LigaDesliga)
+        {
+            if (LigaDesliga.ToUpper() == "LIGA")
+                ligada = true;
+            else
+                ligada = false;
+        }
+
+
+        //Criar metodo - MudaDeCanal
+        public void MudaCanal(int canalNovo)
+        {
+            ValidaStatusTV();
+            canal = canalNovo;
+        }
+
+        //Criar metodo - AumentaVolume
+        public void AumentaVolume()
+        {
+            ValidaStatusTV();
+            if(volume > 100)
+            {
+                volume = 100;
+            }
+            else
+            volume++;
+        }
+        //Criar metodo - DiminuiVolume
+        public void DiminuiuVolume()
+        {
+            ValidaStatusTV();
+            if(volume < 0)
+            {
+                volume = 0;
+            }
+            else
+            volume--;
+        }
+
+    }
+
+______________________________________
+static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("TV");
+                TV tv = new TV("Desligada", 10, 2);
+                Console.WriteLine(tv.ligada);
+                Console.WriteLine(tv.canal);
+                Console.WriteLine(tv.volume);
+
+                //tv.MudaCanal(6);
+                tv.Power("liga");
+                Console.WriteLine(tv.ligada);
+                tv.AumentaVolume();
+                Console.WriteLine(tv.volume);
+                tv.MudaCanal(2);
+                Console.WriteLine(tv.canal);
+
+                TV tv2 = new TV("Ligada", 102, 30);
+                Console.WriteLine(tv2.ligada);
+                Console.WriteLine(tv2.canal);
+                Console.WriteLine(tv2.volume);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            
+            
+        }

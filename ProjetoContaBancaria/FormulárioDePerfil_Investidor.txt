@@ -1,0 +1,30 @@
+Formulario Perfil do Investidor
+----------------------------------------------------------------------------------
+1- Por quanto tempo pretende deixar seu dinheiro investido?
+
+a) menos de 6 meses
+b) Entre 1 ano e 3 anos
+c) Acima de 3 anos
+*********************************
+2- Qual o objetivo desse investimento?
+
+a) Preservação de capital, assumindo riscos baixos
+b)Aumento gradual do capita, assumindo riscos moderados
+c)Obter retornos elevados e significativos, assumindo riscos elevados
+****************************************************************************************
+3-Qual das alternativas melhor classifica sua experiência com o mercado financeiro:
+
+a) Não possuo formação acadêmica ou conhecimento de mercado financeiro
+b)Possuo formação academica na area financeira, mas não tenho experiencia com o mercado financeiro.
+c)Possuo formação academia em outra area ou na area financeira, mas possuo conhecimento no mercado financeiro
+*************************************************************************************************
+4- Quais investimento você conhece ou ja investe?
+a) Poupança, CDB e titulos públicos
+b)Titulos Publicos, CDBs, Fundos de Investimentos
+c)Renda Variavel, Renda Fixa, Fundos de Multimercado e Cambiais, Debentures e Derivativos
+***************************************************************************************************
+Pesos das alternativas 
+
+A - Vale 1 Pontos / Se <= 6 pontos (Perfil Conservador)
+B - Vale 2 Pontos / Se >6 pontos <= 11 pontos (Perfil Moderado)
+C- Vale 3 Pontos / Se = 12 pontos (Perfil Agressivo)

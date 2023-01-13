@@ -1,0 +1,17 @@
+Holerite para ContaBancaria
+
+Nome da Empresa: Maquina de Nomes Ltda.
+Cnpj: 00112112000139
+Cargo: Vendedor
+Data de Admissão: 01/01/2021
+Salário: 2.500,00
+
+
+Descrição        Referencia        Proventos   Descontos
+Salario Base        30                    2500,00
+Comissão	                      250,00
+INSS                     12%                                     330,00
+IRRF	             7,5%                                      38,70
+
+Total                                             2.750,00        368,70 
+Salario Liquido = 2.711,30	                     						

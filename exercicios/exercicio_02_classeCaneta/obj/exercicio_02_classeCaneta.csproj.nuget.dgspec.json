@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj": {}
+    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj": {
+    "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj",
+        "projectUniqueName": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj",
         "projectName": "exercicio_02_classeCaneta",
-        "projectPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj",
+        "projectPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta.csproj",
         "packagesPath": "C:\\Users\\rishi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicio_02_classeCaneta\\exercicio_02_classeCaneta\\obj\\",
+        "outputPath": "C:\\Users\\rishi\\source\\repos\\Poo1_ModuloII_Ada\\exercicios\\exercicio_02_classeCaneta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
