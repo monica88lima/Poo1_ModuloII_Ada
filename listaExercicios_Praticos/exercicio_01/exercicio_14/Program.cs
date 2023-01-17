@@ -11,6 +11,8 @@
 
 
             Console.WriteLine("Hello, World!");
+            Album novo = new Album(10);
+            novo.ColarFiguras()
         }
     }
 }

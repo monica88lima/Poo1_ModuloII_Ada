@@ -1,0 +1,15 @@
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\bin\Debug\net6.0\exercicio_17.exe
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\bin\Debug\net6.0\exercicio_17.deps.json
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\bin\Debug\net6.0\exercicio_17.runtimeconfig.json
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\bin\Debug\net6.0\exercicio_17.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\bin\Debug\net6.0\exercicio_17.pdb
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.csproj.AssemblyReference.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.AssemblyInfoInputs.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.AssemblyInfo.cs
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.csproj.CoreCompileInputs.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\refint\exercicio_17.dll
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.pdb
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\exercicio_17.genruntimeconfig.cache
+C:\Users\rishi\source\repos\Poo1_ModuloII_Ada\listaExercicios_Praticos\exercicio_01\exercicio_17\obj\Debug\net6.0\ref\exercicio_17.dll
