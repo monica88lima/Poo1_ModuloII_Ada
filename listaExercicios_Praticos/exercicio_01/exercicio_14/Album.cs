@@ -7,72 +7,51 @@ using System.Threading.Tasks;
 namespace exercicio_14
 {
     public class Album
-    {
-        public string[] Figurinha { get; set; }
+    {/*Faça uma classe Album (de figurinhas) que tem como propriedades a quantidade de figurinhas e um array de
+             * figurinhasColadas que recebe os números das figurinhas
+             * coladas. Garanta que o array de figurinhasColadas apenas pode crescer. Tenha também um método 
+             * colarFigurinha que permita colar figurinhas que existam no álbum e que não foram coladas ainda.*/
+
         public int QtdFigurinhas { get; set; }
-        public int[] NumerosFigurinhas { get; set; }
-        public int[] FigurinhasColadas { get; protected set; }
-        public int ContadorFigurinhasColadas { get; set; }
-        public int[] NumerosFigurinhasLivres { get; set; }
+
+        private List<int> FigurinhasColadas { get; set; }
+        private int[] Figurinhas_Coladas { get; set; }
+
 
         public Album(int quantidadeFigurinhaDoAlbum)
         {
             this.QtdFigurinhas = quantidadeFigurinhaDoAlbum;
-            FigurinhasColadas = new int[QtdFigurinhas];
-            NumerosFigurinhas = MontarAlbum(quantidadeFigurinhaDoAlbum);
+            FigurinhasColadas = new List<int>();
+
         }
 
-        private int[] MontarAlbum(int qtdDeFigurinhas)
+
+
+        public void ColarFiguras(int[] novasFigurinhas)
         {
-            int[] numeroDasFigurinhas = new int[qtdDeFigurinhas];
-
-
-            for (int i = 1; i <= qtdDeFigurinhas; i++)
+            foreach (int f in novasFigurinhas)
             {
-                numeroDasFigurinhas[i] = i;
-                Figurinha[i] = "L";
-            }
-            return numeroDasFigurinhas;
-        }
-
-        public int[] ColarFiguras(int[] novasFigurinhas)
-        {
-
-
-            for (int i = 0; i <= novasFigurinhas.Length; i++)
-            {
-                for (int j = 0; j <= NumerosFigurinhasLivres.Length; j++)
+                if (f <= QtdFigurinhas && f >0)
                 {
-                    if (novasFigurinhas[i] == NumerosFigurinhasLivres[j])
+                    if (!FigurinhasColadas.Contains(f))
                     {
-                        FigurinhasColadas[ContadorFigurinhasColadas] = novasFigurinhas[i];
-                        ContadorFigurinhasColadas++;
+                        FigurinhasColadas.Add(f);
                     }
 
+
+                    Figurinhas_Coladas = FigurinhasColadas.ToArray();
+
+
                 }
+
             }
-            return FigurinhasColadas;
-
         }
-
-        public void VerificadorFigurinhasLivre()
+        public void ExibirAlbum()
         {
-            Array.Sort(FigurinhasColadas);
-
-            Array.Sort(NumerosFigurinhasLivres);
-
-            for (int i = 0; i <= QtdFigurinhas; i++)
+            Array.Sort(Figurinhas_Coladas);
+            foreach (int i in Figurinhas_Coladas)
             {
-                if(FigurinhasColadas[i] == NumerosFigurinhasLivres[i])
-                {
-
-                }
-                else
-                {
-                    NumerosFigurinhasLivres[i] = i;
-
-                }
-                
+                Console.WriteLine("Figura Colada:" + i);
             }
         }
     }

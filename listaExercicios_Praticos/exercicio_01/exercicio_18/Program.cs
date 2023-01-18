@@ -11,7 +11,26 @@
              * (não pode ser superior à resolucaoMaxima). Ambas apenas podem tirar fotos se houver espaço 
              * disponível no celular e a cameraFrontal deve ter resolucaoMaxima menor que a cameraTraseira.*/
 
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Camera");
+
+
+            //Camera novaMaquina = new Camera(32);
+            //novaMaquina.TirarFoto();
+            //novaMaquina.MostraQuantidadeDeFotos();
+            //novaMaquina.TirarFoto();
+            //novaMaquina.MostraQuantidadeDeFotos();
+            //novaMaquina.TirarFoto();
+            //novaMaquina.MostraQuantidadeDeFotos();
+
+
+            Celular novoCelular = new Celular(8, 3, 4, 16);
+            novoCelular.TirarFoto();
+            novoCelular.TirarFoto();
+            novoCelular.TirarFoto();
+            novoCelular.TirarFoto();
+            novoCelular.TirarFoto();
+            novoCelular.MostraQuantidadeDeFotos();
+            Console.WriteLine("O Espaço livre do celular  é: " + novoCelular.EspacoLivre);
         }
     }
 }

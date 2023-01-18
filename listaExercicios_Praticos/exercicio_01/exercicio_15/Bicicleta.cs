@@ -12,9 +12,22 @@ namespace exercicio_15
 
         public bool Infantil { get; set; }
 
-        public Bicicleta(int rodas, bool usaCombustivel, bool tipoBike) : base(rodas, usaCombustivel)
+        public Bicicleta(int rodas, bool usaCombustivel, string classificacaoBike) : base(rodas, usaCombustivel)
         {
+            VerificarBicicleta(classificacaoBike, rodas);
+        }
+
+        private void VerificarBicicleta(string tipo, int rodas)
+        {
+            if(tipo.ToUpper() =="INFANTIL"&& rodas >2)
+            {
+                Infantil = true;
+            }
+            else
+            {
                 
+                Infantil = false;
+            }
         }
     }
 }
